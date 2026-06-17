@@ -63,8 +63,16 @@
 - [협업 규칙 (Collaboration Rules)](#협업-규칙-collaboration-rules)
   - [공통](#공통)
   - [BE](#be-5)
+    - [백엔드 협업 및 코드 개발 규칙 가이드](#백엔드-협업-및-코드-개발-규칙-가이드)
+    - [패키지 구조 및 도메인 개발 규칙](#패키지-구조-및-도메인-개발-규칙)
   - [FE](#fe-5)
+    - [개발 및 코드 규칙 (Coding Standards)](#개발-및-코드-규칙-coding-standards)
+    - [테스트 및 품질 관리 (Testing \& QA)](#테스트-및-품질-관리-testing--qa)
+    - [문서화 및 보안 (Docs \& Security)](#문서화-및-보안-docs--security)
   - [AN](#an-4)
+    - [개발 및 코드 규칙 (Coding Standards)](#개발-및-코드-규칙-coding-standards-1)
+    - [테스트 및 품질 관리 (Testing \& QA)](#테스트-및-품질-관리-testing--qa-1)
+    - [문서화 및 보안 (Docs \& Security)](#문서화-및-보안-docs--security-1)
 
 # 서비스 개요
 
@@ -799,8 +807,7 @@ Debug APK 빌드
 
 ## BE
 
-
-  [ 백엔드 협업 및 코드 개발 규칙 가이드 ]
+### 백엔드 협업 및 코드 개발 규칙 가이드
 
   1. 🏗️ 개발 및 코드 규칙 (Coding Standards)
 
@@ -858,7 +865,7 @@ Debug APK 빌드
    - 공간 연산 쿼리 작성 시 성능 최적화를 위해 Querydsl과 네이티브 쿼리를 적절히 혼용하며, 카테시안 곱 발생 여부를 반드시 확인합니다.
    - 복잡한 비즈니스 로직은 서비스 레이어에서 처리하고, 엔티티는 가급적 순수한 상태를 유지하거나 도메인 로직만 포함합니다.
 
-[ 패키지 구조 및 도메인 개발 규칙 ]
+### 패키지 구조 및 도메인 개발 규칙
 
   1. 도메인 중심의 패키지 구성 (Domain-Driven Packaging)
 
@@ -922,7 +929,7 @@ Debug APK 빌드
 
 ## FE
 
-**개발 및 코드 규칙 (Coding Standards)**
+### 개발 및 코드 규칙 (Coding Standards)
 
 지속 가능한 코드 품질을 위해 다음의 제약 사항을 준수합니다.
 
@@ -931,22 +938,21 @@ Debug APK 빌드
 - **에러 처리**: fetch 기반 API는 `res.ok` 체크, axios 기반 API는 interceptor를 통해 일관된 에러 처리를 수행합니다.
 
 
-** 테스트 및 품질 관리 (Testing & QA)**
+### 테스트 및 품질 관리 (Testing & QA)
 
 - **단위 테스트 필수**: 새로운 순수 비즈니스 로직 추가 시 Vitest 테스트 코드를 포함해야 합니다.
 - **시각적 회귀 테스트**: UI 컴포넌트 변경 시 Storybook 스토리를 작성하고 Chromatic을 통해 검증합니다.
 - **회귀 테스트**: 버그 수정 시 해당 버그가 재발하지 않음을 증명하는 테스트를 먼저 작성합니다.
 - **CI 연동**: 모든 PR은 GitHub Actions의 타입 체크, 린트, 빌드, 테스트를 통과해야 머지가 가능합니다.
 
-
-**문서화 및 보안 (Docs & Security)**
+### 문서화 및 보안 (Docs & Security)
 
 - **비밀 키 관리**: 어떠한 경우에도 소스 코드에 API 키나 시크릿을 하드코딩하지 않습니다. 모든 환경 변수는 `.env.local`과 GitHub Secrets를 통해 관리합니다.
 - **브랜치 보호**: `main`, `develop` 브랜치는 직접 push를 금지하며 반드시 PR을 통해 머지합니다.
 
 ## AN
 
-개발 및 코드 규칙 (Coding Standards)
+### 개발 및 코드 규칙 (Coding Standards)
 
 지속 가능한 코드 품질을 위해 다음의 제약 사항을 준수합니다.
 
@@ -956,14 +962,14 @@ Debug APK 빌드
 - **ViewModel 규칙**: UI 상태는 `StateFlow`로 단방향 관리하며, ViewModel에서 직접 View를 참조하지 않습니다.
 
 
-테스트 및 품질 관리 (Testing & QA)
+### 테스트 및 품질 관리 (Testing & QA)
 
 - **단위 테스트**: 새로운 순수 비즈니스 로직(UseCase, ViewModel) 추가 시 JUnit 4 및 MockK 테스트 코드를 포함해야 합니다.
 - **UI 테스트**: 주요 화면 변경 시 Compose UI Test(`composeTestRule`)를 통해 핵심 상호작용을 검증합니다.
 - **CI 연동**: 모든 PR은 GitHub Actions의 빌드 및 `connectedDebugAndroidTest`를 통과해야 머지가 가능합니다.
 
 
-문서화 및 보안 (Docs & Security)
+### 문서화 및 보안 (Docs & Security)
 
 - **비밀 키 관리**: 어떠한 경우에도 소스 코드에 API 키나 시크릿을 하드코딩하지 않습니다. 모든 환경 변수는 `local.properties`와 GitHub Secrets를 통해 관리합니다.
 - **Mock Location 차단**: 위치 기반 기능의 무결성을 위해 Mock Location 탐지 로직을 유지하며 임의로 비활성화하지 않습니다.
