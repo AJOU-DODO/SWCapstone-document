@@ -37,9 +37,9 @@
 - [설계 및 구현](#설계-및-구현)
   - [소프트웨어 아키텍처](#소프트웨어-아키텍처)
     - [🧱 시스템 컴포넌트별 상세 설계](#-시스템-컴포넌트별-상세-설계)
-      - [1. 클라이언트 레이어 (Client Layer)](#1-클라이언트-레이어-client-layer)
-      - [2. 인프라 및 애플리케이션 레이어 (Infrastructure \& Application Layer)](#2-인프라-및-애플리케이션-레이어-infrastructure--application-layer)
-      - [3. 데이터 및 스토리지 레이어 (Data \& Storage Layer)](#3-데이터-및-스토리지-레이어-data--storage-layer)
+      - [클라이언트 레이어 (Client Layer)](#클라이언트-레이어-client-layer)
+      - [인프라 및 애플리케이션 레이어 (Infrastructure \& Application Layer)](#인프라-및-애플리케이션-레이어-infrastructure--application-layer)
+      - [데이터 및 스토리지 레이어 (Data \& Storage Layer)](#데이터-및-스토리지-레이어-data--storage-layer)
   - [ERD](#erd)
   - [Repository 구조](#repository-구조)
     - [BE](#be)
@@ -291,7 +291,7 @@
 
 ### 🧱 시스템 컴포넌트별 상세 설계
 
-#### 1. 클라이언트 레이어 (Client Layer)
+#### 클라이언트 레이어 (Client Layer)
 
 * **Android Native (Jetpack Compose & MVVM)**
   * `Google Maps SDK`와 `OSM (Open Street Maps)`을 결합한 하이브리드 지도 레이어를 구성하여 일반 도로 정보와 세부 산책로 데이터를 동시에 렌더링한다.
@@ -301,7 +301,7 @@
   * `Android WebView Bridge (JavaScript Interface)`를 구현하여 네이티브 하드웨어 기능(위치 권한, FCM 토큰 추출 등)과 웹 콘텐츠 간의 데이터 연동을 최적화한다.
   * `Zustand`를 활용해 가벼우면서도 직관적인 글로벌 상태 관리를 수행하며, 복잡한 어드민 테이블 및 데이터 시각화 요구사항을 처리한다.
 
-#### 2. 인프라 및 애플리케이션 레이어 (Infrastructure & Application Layer)
+#### 인프라 및 애플리케이션 레이어 (Infrastructure & Application Layer)
 
 * **네트워크 엔트리 포인트 (Nginx)**
   * 외부 클라이언트의 모든 HTTPS 요청을 일차적으로 수용하는 리버스 프록시(Reverse Proxy) 역할을 수행한다.
@@ -311,7 +311,7 @@
   * `Querydsl`과 공간 연산 라이브러리(`JTS`)를 활용해 (경도, 위도) 표준 순서에 기반한 위치 기반 공간 쿼리(Spatial Query)를 처리한다.
   * 실시간으로 발생하는 알림 이벤트는 비동기 스케줄러 및 `FCM (Firebase Cloud Messaging)` 외부 인프라 레이어를 거쳐 클라이언트에 지연 없이 푸시된다.
 
-#### 3. 데이터 및 스토리지 레이어 (Data & Storage Layer)
+#### 데이터 및 스토리지 레이어 (Data & Storage Layer)
 * **메인 데이터베이스 (MySQL 8.0)**
   * 서비스의 핵심 엔티티(유저, 둥지, 엽서, 광고, 신고 데이터 등) 간의 유기적인 관계 구조를 영속화한다. Spatial Index를 적용하여 반경 기반 탐색 성능을 최적화한다.
 * **인메모리 데이터 스토어 (Redis 7.0)**
