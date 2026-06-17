@@ -1,4 +1,14 @@
-# 최종 보고서 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4ad9e822-e3ff-446c-890a-df8293ee6a16" alt="dodo logo" width="128" />
+</p>
+
+<h1 align="center">DODO JOURNEY</h1>
+
+<p align="center">
+  <strong>산책을 탐험으로 바꾸는 위치 인증 기반 로컬 커뮤니티<br/>
+  <em>Walk. Verify. Explore.</em>
+</p>
+
 
 # 서비스 개요
 
@@ -15,12 +25,15 @@
 1. 앱 특성상 위치 권한은 필수 입니다.
 2. fake gps등 gps 조작 앱이 깔려 있을 경우 사용이 제한 될 수 있습니다.
 3. 어떠한 방식으로든 gps를 조작할 경우 사용이 제한 될 수 있습니다. 
-    
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/54cf0d20-e65a-4ebc-a02d-e5823d07208a" />
+
 
     
 
-첫 화면
+## 산책가&기록가 (일반 유저)
+
+### 첫 화면
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/54cf0d20-e65a-4ebc-a02d-e5823d07208a" />
+
 
 - 좌측 하단 버튼을 통해 둥지를 만들 수 있습니다. (글쓰기)
 - 중앙 하단 버튼을 통해 화면의 지도를 현재 위치로 이동하고 주변 둥지를 최신화합니다.
@@ -28,148 +41,180 @@
 - 지도 위에 둥지들이 표시됩니다. 단일 둥지는 알 하나, 여러 둥지는 세 개의 알이 모여있습니다.
 - 선물이 들어있는 둥지는 광고 둥지입니다.
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/b71e2b44-f943-44f1-b3b8-68aa45ea1b55" />
 
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/cb79055e-9e5c-4bf0-8fcc-cb14c120dff6" />
+### 둥지 찾아가기 및 해금
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/b71e2b44-f943-44f1-b3b8-68aa45ea1b55" />
 
 
-둥지 찾아가기 및 해금
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/cb79055e-9e5c-4bf0-8fcc-cb14c120dff6" />
+
 
 - 궁금한 둥지를 클릭하면 블러된 내용의 둥지가 나타납니다.
 - 둥지를 다시 선택하면 찾아가기 모드가 시작되며, 둥지까지의 직선 방향을 알려줍니다.
 - 범위 내에 도착하면 알림이 도착하고, 둥지 해금이 가능합니다.
 - 이제 블러되지 않은 온전한 둥지를 볼 수 있습니다.
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/57a5cbc4-931c-49af-b3d2-2f850b8d487c" />
 
-둥지 확인
+### 둥지 확인
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/57a5cbc4-931c-49af-b3d2-2f850b8d487c" />
 
 - 둥지에 대한 좋아요 및 댓글 작성이 가능합니다.
 - 해당 둥지에 엽서가 있을 경우 미리 만들어둔 엽서와 교환이 가능합니다. (하루 최대 3번)
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/8f0a7e3b-ae68-4000-bb5e-0fafdb5807fa" />
 
 
-둥지 만들기
+### 둥지 만들기
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/8f0a7e3b-ae68-4000-bb5e-0fafdb5807fa" />
+
 
 - 카테고리, 제목, 본문은 필수 입니다.
 - 필요할 경우 사진 및 엽서를 추가 할 수 있습니다.
 - 작성 중인 둥지를 임시저장하면 다른 곳으로 이동하더라도 저장된 위치에 생성될 둥지 제작을 이어갈 수 있습니다.
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/89e24ef6-99a8-4b56-bfae-9beede048ef9" />
 
 
-설정 창
+### 설정 창
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/89e24ef6-99a8-4b56-bfae-9beede048ef9" />
+
 
 - 탐색 반경 및 카테고리 필터 사용 여부를 정할 수 있습니다.
 - 관리자에게 문의사항을 보낼 수 있습니다.
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/7fe2efeb-5dc2-44eb-8a05-8b58eb7df6e1" />
 
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/0a6e9ebb-19d2-41d5-a93c-ae4d7d0aa89a" />
+### 마이페이지
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/7fe2efeb-5dc2-44eb-8a05-8b58eb7df6e1" />
 
 
-마이페이지
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/0a6e9ebb-19d2-41d5-a93c-ae4d7d0aa89a" />
+
 
 - 활동을 모아볼 수 있는 페이지입니다. 둥지, 댓글, 엽서 등을 확인할 수 있습니다.
 - 프로필 수정이 가능합니다.
 - 엽서함에서 엽서 생성이 가능합니다.
 
-<img width="540" height="1320" alt="image" src="https://github.com/user-attachments/assets/e6843a89-1ebf-4e75-8c9e-5fff377c974d" />
 
 
-문의사항 창
+### 문의사항 창
+
+<img width="270" height="660" alt="image" src="https://github.com/user-attachments/assets/e6843a89-1ebf-4e75-8c9e-5fff377c974d" />
+
 
 - 문의사항 답변 및 공지사항 확인이 가능합니다.
 
-광고주 페이지
+## 광고주 페이지
+
+
+
+### 광고주 대시보드
 
 <img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/331f2721-735b-4e68-b69f-e3aefe1a363c" />
 
-
-광고주 대시보드
 
 - 계정 상태( 총 허용 광고, 게시 중인 광고, 심사 중인 광고, 추가로 신청 가능한 광고)를 확인할 수 있습니다.
 - 신청한 광고의 상태를 확인할 수 있습니다.
 - 게시 중인 광고의 성과(노출 수, 클릭 수)를 확인할 수 있습니다.
 - ‘새 광고 신청’ 버튼을 눌러 새로운 광고 둥지를 작성 할 수 있습니다.
 
+
+### 광고 신청 페이지
+
 <img width="1913" height="940" alt="image" src="https://github.com/user-attachments/assets/c8f0a789-3923-4969-a921-c9aefaf998b3" />
 
 
-광고 신청 페이지
 
 - 광고 둥지를 작성하여 신청할 수 있는 페이지 입니다.
 - 일반적인 둥지 작성과 거의 동일하게 작성 가능하며, 둥지가 찍힐 위치의 경우 지도 위의 핀을 통해 직접 설정할 수 있습니다.
 
-관리자 페이지
+## 관리자 페이지
 
-**유저 관리**
+
+### 유저 관리
+
+<img width="2559" height="1344" alt="image" src="https://github.com/user-attachments/assets/9646fde2-be9e-4b51-a25e-bbb4eaf7b2d5" />
 
 - 모든 유저의 정보를 테이블을 통해 확인할 수 있습니다.
 - 이메일로 유저 검색이 가능합니다.
 - 유저 테이블 행 클릭 시 유저에게 제재를 가할 수 있으며, 제재 중인 유저 행 클릭 시 제재 해제가 가능합니다.
 - 역할 버튼 클릭을 통해 광고주 권한 부여가 가능합니다.
 
-<img width="2559" height="1344" alt="image" src="https://github.com/user-attachments/assets/9646fde2-be9e-4b51-a25e-bbb4eaf7b2d5" />
 
 
-**둥지 관리**
+
+### 둥지 관리
+
+<img width="2559" height="1348" alt="image" src="https://github.com/user-attachments/assets/bd2a557f-7a12-4e11-a568-bc8acacb55d0" />
 
 - 모든 둥지 정보를 확인할 수 있습니다.
 - 테이블 행 클릭 시 오른쪽에서 둥지 상세내용을 바로 확인할 수 있고, 관리자 권한으로 삭제할 수 있습니다.
 - 신고가 들어온 둥지와 댓글을 반려하거나, 삭제 및 제재하는 등 관리합니다.
 
-<img width="2559" height="1348" alt="image" src="https://github.com/user-attachments/assets/bd2a557f-7a12-4e11-a568-bc8acacb55d0" />
 
 
-**신고된 엽서**
-
-- 신고가 들어온 엽서를 관리합니다.
-- 엽서 클릭 시 모달로 확인 가능하며 마찬가지로 반려하거나 삭제 및 제재처리 할 수 있습니다.
+### 신고된 엽서
 
 <img width="2559" height="1342" alt="image" src="https://github.com/user-attachments/assets/02274019-de2f-4ef1-ba8b-91e8e5c0176f" />
 
 
-**카테고리 관리**
+- 신고가 들어온 엽서를 관리합니다.
+- 엽서 클릭 시 모달로 확인 가능하며 마찬가지로 반려하거나 삭제 및 제재처리 할 수 있습니다.
+
+
+
+
+### 카테고리 관리
+
+<img width="2559" height="1348" alt="image" src="https://github.com/user-attachments/assets/6b8f8672-2322-4aba-8f5c-25b17d3b4431" />
 
 - 앱에서 표시될 카테고리를 생성, 수정, 삭제할 수 있습니다.
 - 드래그 앤 드롭을 통해 앱에서 표시될 카테고리의 순서를 변경할 수 있습니다.
 
-<img width="2559" height="1348" alt="image" src="https://github.com/user-attachments/assets/6b8f8672-2322-4aba-8f5c-25b17d3b4431" />
 
 
-**공지사항**
+
+### 공지사항
+
+<img width="2559" height="1347" alt="image" src="https://github.com/user-attachments/assets/5762257f-4f71-4a36-ab9b-e5d64cd27276" />
 
 - 유저에게 알릴 공지를 작성할 수 있습니다.
 - 처음 작성한 공지는 임시저장되며, 이후 한번 더 체크하고 발행해야합니다.
 
-<img width="2559" height="1347" alt="image" src="https://github.com/user-attachments/assets/5762257f-4f71-4a36-ab9b-e5d64cd27276" />
 
 
-**통계확인**
-
-- 서비스의 전반적인 이용률 통계를 확인할 수 있습니다.
+### 통계확인
 
 <img width="2559" height="1347" alt="image" src="https://github.com/user-attachments/assets/ffac0534-a5bf-4214-ac2b-e38afc7232a5" />
 
 
-**문의사항**
+- 서비스의 전반적인 이용률 통계를 확인할 수 있습니다.
 
-- 유저들의 문의사항을 처리합니다.
+
+
+### 문의사항
 
 <img width="2559" height="1345" alt="image" src="https://github.com/user-attachments/assets/a6787bea-0178-4476-97a2-b1d36aeb9769" />
 
 
-**광고관리**
+- 유저들의 문의사항을 처리합니다.
+
+
+
+
+### 광고관리
+
+<img width="2559" height="1347" alt="image" src="https://github.com/user-attachments/assets/b45a0f0f-d10f-4ae8-a6c9-1991fa5a7002" />
 
 - 광고주들이 신청한 광고 둥지를 수락하거나, 거절할 수 있습니다.
 - 광고 둥지들은 광고 관리 탭에서 모두 확인할 수 있습니다.
 - 광고 둥지를 관리자 권한으로 삭제할 수 있습니다.
 
-<img width="2559" height="1347" alt="image" src="https://github.com/user-attachments/assets/b45a0f0f-d10f-4ae8-a6c9-1991fa5a7002" />
+
 
 
 # 설계 및 구현
@@ -445,7 +490,7 @@ CI 단계의 모든 검증(유닛 테스트 및 에뮬레이터 통합 테스트
 
 ### BE
 
-📊 테스트 커버리지 정책 (Test Coverage Policy)
+**📊 테스트 커버리지 정책 (Test Coverage Policy)**
 
 코드 품질 관리 및 안정성 확보를 위해 **JaCoCo**를 통한 테스트 커버리지를 강제하고 있습니다.
 
@@ -470,15 +515,13 @@ CI 단계의 모든 검증(유닛 테스트 및 에뮬레이터 통합 테스트
 
 ### FE
 
-## 🧪 Frontend Testing Policy (프론트엔드 테스트 정책)
+**🧪 Frontend Testing Policy (프론트엔드 테스트 정책)**
 
-### 🎯 테스트 핵심 원칙 (Testing Principles)
+🎯 테스트 핵심 원칙 (Testing Principles)
 1. **역할의 철저한 분리**: 화면(UI 스타일) 검증과 기능(비즈니스 로직) 검증을 분리하여 테스트 코드 유지보수 비용을 최소화합니다.
 2. **자동화 검증 필수**: 작성된 모든 테스트는 로컬 환경에만 머무르지 않고, **GitHub Actions(CI)** 파이프라인과 연동되어 성공 지표를 달성해야만 브랜치 머지(Merge)가 가능합니다.
 
----
-
-### 🧱 레이어별 검증 범위 및 담당 도구
+🧱 레이어별 검증 범위 및 담당 도구
 
 | 테스트 종류 | 담당 도구 | 테스트 대상 및 범위 (What to test) | 품질 관리 기준 |
 | :--- | :--- | :--- | :--- |
@@ -486,15 +529,14 @@ CI 단계의 모든 검증(유닛 테스트 및 에뮬레이터 통합 테스트
 | **인터랙션 테스트**<br>(Component Test) | **Storybook**<br>*(Play 함수)* | • 컴포넌트 단위의 **사용자 행동 시나리오 검증**<br>• 어드민 주요 기능 (둥지 관리 페이지네이션, 공지사항 체크박스 다중 선택 및 테이블 렌더링 등) | 핵심 유저 시나리오<br>**성공률 100%** |
 | **시각적 회귀 테스트**<br>(Visual Test) | **Chromatic** | • 브라우저 픽셀 레벨에서의 **디자인/스타일 깨짐 검증**<br>• 페이지 수정 시 발생 가능한 CSS 사이드 이펙트 차단 | 매 PR 빌드 시<br>**팀원 전원 승인<br> 필수** |
 
----
 
-### 🛑 Do & Don't
+🛑 Do & Don't
 
-#### ❌ 이것은 테스트하지 않습니다 (Don't)
+❌ 이것은 테스트하지 않습니다 (Don't)
 - **외부 라이브러리 자체 기능**: `Shadcn UI`나 `Radix UI` 등 검증된 라이브러리 자체의 내장 스타일 및 동작은 신뢰하고 테스트 대상에서 제외합니다.
 - **순수 정적 컴포넌트**: 단순 마크업만 존재하는 UI(고정 아이콘, 단순 텍스트 레이블 등)는 단위 테스트를 생략하고 스토리북 등록으로 대체합니다.
 
-#### ⭕ 이것은 반드시 테스트합니다 (Do)
+⭕ 이것은 반드시 테스트합니다 (Do)
 - **권한 및 보안 분기**: 유저 등급/권한에 따른 메뉴 노출 및 접근 제어 로직은 `Vitest`로 철저하게 검증합니다.
 - **복잡한 상태 구조**: 테이블 페이징, 다중 조건 필터링 등 상태(State)가 복잡하게 얽혀 문제가 발생하기 쉬운 UI 코어는 `Storybook Interaction`으로 테스트 시나리오를 작성해 방어합니다.
 - **Next.js Production Build 검증**: 로컬 개발 환경(`npm run dev`)에서는 누락되기 쉬운 타입 체크, 린트 및 빌드 오류를 배포 전 단계에서 완벽하게 솎아냅니다.
@@ -535,7 +577,7 @@ docker push <DOCKERHUB_USERNAME>/dodo-server:latest
 docker-compose up -d
 ```
 
-### FE
+## FE
 
 1. 의존성 라이브러리 설치
 `npm install`
@@ -570,7 +612,7 @@ npm run dev
 npm run test:run      # Vitest 실행
 npm run storybook     # Storybook 로컬 실행
 
-### AN
+## AN
 
 *프로젝트 시작 가이드*
 
@@ -643,7 +685,7 @@ Debug APK 빌드
 
 # 협업 규칙 (Collaboration Rules)
 
-### 공통
+## 공통
 
 이 프로젝트는 원활한 협업과 코드 품질 관리를 위해 다음 규칙을 따릅니다.
 
@@ -667,7 +709,7 @@ Debug APK 빌드
 | `chore` | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore |
 | `!HOTFIX` | 급하게 치명적인 버그를 고쳐야 하는 경우 |
 
-### BE
+## BE
 
 
   [ 백엔드 협업 및 코드 개발 규칙 가이드 ]
@@ -790,7 +832,7 @@ Debug APK 빌드
   - 테스트 코드의 가독성과 접근성을 위해 메인 코드와 동일한 구조를 유지합니다.
 
 
-### FE
+## FE
 
 **개발 및 코드 규칙 (Coding Standards)**
 
@@ -814,7 +856,7 @@ Debug APK 빌드
 - **비밀 키 관리**: 어떠한 경우에도 소스 코드에 API 키나 시크릿을 하드코딩하지 않습니다. 모든 환경 변수는 `.env.local`과 GitHub Secrets를 통해 관리합니다.
 - **브랜치 보호**: `main`, `develop` 브랜치는 직접 push를 금지하며 반드시 PR을 통해 머지합니다.
 
-### AN
+## AN
 
 개발 및 코드 규칙 (Coding Standards)
 
