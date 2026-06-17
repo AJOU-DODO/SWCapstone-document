@@ -309,7 +309,8 @@
 
 ## 소프트웨어 아키텍처
 
-<img width="1858" height="1498" alt="image" src="https://github.com/user-attachments/assets/e059fef6-a844-4000-a6f7-76c5e2c58c8c" />
+<img width="929" height="749" alt="image" src="https://github.com/user-attachments/assets/d0485ff3-e6cb-490b-b633-b411abb1f675" />
+
 
 **본 프로젝트는 대규모 로컬 커뮤니티 서비스를 안정적으로 서비스하기 위해 Android Native 앱, 인앱 웹뷰(Webview) 및 어드민 웹을 아우르는 프론트엔드 아키텍처와 컨테이너 기반의 분산 백엔드 인프라를 채택하고 있다.**
 
