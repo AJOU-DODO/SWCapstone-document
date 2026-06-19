@@ -667,7 +667,7 @@ CI 단계의 모든 검증(유닛 테스트 및 에뮬레이터 통합 테스트
 
 ## BE
 
-🔨 빌드 방법 (Build Instructions)
+빌드 방법 (Build Instructions)
 
 프로젝트 빌드 시 JaCoCo 테스트 커버리지 검증이 자동으로 수행됩니다.
 
