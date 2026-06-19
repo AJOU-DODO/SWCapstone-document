@@ -60,7 +60,7 @@
     - [광고관리](#광고관리)
 - [설계 및 구현](#설계-및-구현)
   - [소프트웨어 아키텍처](#소프트웨어-아키텍처)
-    - [시스템 컴포넌트별 상세 설계](#-시스템-컴포넌트별-상세-설계)
+    - [시스템 컴포넌트별 상세 설계](#시스템-컴포넌트별-상세-설계)
       - [클라이언트 레이어 (Client Layer)](#클라이언트-레이어-client-layer)
       - [인프라 및 애플리케이션 레이어 (Infrastructure \& Application Layer)](#인프라-및-애플리케이션-레이어-infrastructure--application-layer)
       - [데이터 및 스토리지 레이어 (Data \& Storage Layer)](#데이터-및-스토리지-레이어-data--storage-layer)
